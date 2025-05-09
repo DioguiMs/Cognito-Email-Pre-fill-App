@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cognito-form-web-part-client-side-solution",
+    "id": "f60a1e66-329f-455d-a7c7-58c929e7f9f3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CognitoFormWebPart description"
+      },
+      "longDescription": {
+        "default": "CognitoFormWebPart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cognito-form-web-part Feature",
+        "description": "The feature that activates elements of the cognito-form-web-part solution.",
+        "id": "c7be3a18-a784-47eb-a13c-4269b2ecbf73",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cognito-form-web-part.sppkg"
+  }
+}

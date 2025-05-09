@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cognito-form-embed-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cognitoFormEmbed/CognitoFormEmbedWebPart.js",
+          "manifest": "./src/webparts/cognitoFormEmbed/CognitoFormEmbedWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CognitoFormEmbedWebPartStrings": "lib/webparts/cognitoFormEmbed/loc/{locale}.js"
+  }
+}

@@ -1,40 +1,46 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
-  "solution": {
-    "name": "cognito-form-web-part-client-side-solution",
-    "id": "f60a1e66-329f-455d-a7c7-58c929e7f9f3",
-    "version": "1.0.0.0",
-    "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
-    "isDomainIsolated": false,
-    "developer": {
-      "name": "",
-      "websiteUrl": "",
-      "privacyUrl": "",
-      "termsOfUseUrl": "",
-      "mpnId": "Undefined-1.21.1"
-    },
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "cognito-integration-app-client-side-solution",
+        "id": "0c8efba8-bf80-49a6-bb9f-f3b66261341e",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "Diogo Silva",
+            "websiteUrl": "https://imaginewireless.ca/",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": "Undefined-1.21.1"
+        },
     "metadata": {
-      "shortDescription": {
-        "default": "CognitoFormWebPart description"
-      },
-      "longDescription": {
-        "default": "CognitoFormWebPart description"
-      },
-      "screenshotPaths": [],
-      "videoUrl": "",
-      "categories": []
+        "shortDescription": {
+            "default": "Easily embed and personalize Cognito Forms in SharePoint"
+        },
+        "longDescription": {
+            "default": "This app lets you embed Cognito Forms with user-specific data, support for themes and custom CSS directly into your SharePoint pages."
+        },
+        "screenshotPaths": [],
+        "videoUrl": "",
+        "categories": ["Forms", "Productivity", "Integration"]
     },
     "features": [
-      {
-        "title": "cognito-form-web-part Feature",
-        "description": "The feature that activates elements of the cognito-form-web-part solution.",
-        "id": "c7be3a18-a784-47eb-a13c-4269b2ecbf73",
-        "version": "1.0.0.0"
-      }
+        {
+            "title": "Cognito Integration App Feature",
+            "description": "Enables dynamic Cognito form embedding with user personalization.",
+            "id": "5f447499-0aaf-4b24-8f05-ed313dda8398",
+            "version": "1.0.0.0"
+        }
+    ],
+    "webApiPermissionRequests": [
+        {
+            "resource": "Microsoft Graph",
+            "scope": "User.Read"
+        }
     ]
-  },
-  "paths": {
-    "zippedPackage": "solution/cognito-form-web-part.sppkg"
-  }
+    },
+    "paths": {
+        "zippedPackage": "solution/cognito-integration-app.sppkg"
+    }
 }
